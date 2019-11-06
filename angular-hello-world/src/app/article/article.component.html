@@ -1,0 +1,19 @@
+
+
+<img class="w-100" src="assets/img/dummy.png" alt="Card image cap" >
+<h4>{{ article.newTitle }}</h4>
+<p class="card-text"><a href="">URL of website</a></p>
+
+<h1 class="h1">{{ article.votes }}<small>Votes</small> </h1>
+
+<ul class="list-unstyled">
+<li>
+<a href (click)="voteUp()" class="btn active badge">
+		<i class="arrow up icon"></i>upvote</a>
+</li>
+<li>
+<a href (click)="voteDown()" class="btn active badge">
+		<i class="arrow down icon"></i>downvote</a>
+</li>
+</ul>
+

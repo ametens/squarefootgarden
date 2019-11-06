@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row"></div>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            
+            <h3 class="h3">Add a Link</h3>
+            <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+            <div class="form-group">
+                  
+                <label for="title">Title:</label>
+                <input placeholder="Enter a title" describedby="titleHelp" class="form-control" name="title" #newtitle>
+                <small class="form-text text-muted" id="titleHelp">Enter a title for the new book.</small>
+            </div>
+            <div class="form-group">
+            
+                    <label for="link">Link:</label>
+                    <input describedby="urlHelp" placeholder="URL" class="form-control" name="link" #newlink>
+                    <small class="form-text text-muted" id="urlHelp">Enter its URL</small>
+            </div> 
+            </form>
+            <button 
+            (click)="addArticle(newtitle, newlink)"
+            class="btn btn-primary"
+            type="button">Submit Link</button>
+        </div>
+        <div class="col-md-6">
+            <app-article 
+    *ngFor="let article of articles" [article]="article"></app-article>
+            
+        </div>
+    </div>
+</div>

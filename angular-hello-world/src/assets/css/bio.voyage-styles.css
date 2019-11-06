@@ -1,0 +1,148 @@
+/* bio.voyage styles applied to the template */
+
+.btn-danger {
+	color: #FFF;
+	text-shadow: 0px -1px 0px #406E0C;
+	background: #ABC837 none repeat scroll 0% 0%;
+	box-shadow: 0px 1px 0px #8CAE2B inset;
+	border-color: #688F1C;
+	transition: all 0.3s ease 0s;
+}
+
+.youcan ul li span {
+	display: block;
+	float: left;
+	color: #123612;
+	background: #ABC837 none repeat scroll 0% 0%;
+	width: 30px;
+	height: 30px;
+	font-size: 16px;
+	border-radius: 110px;
+	padding: 4px 11px;
+	margin-right: 10px;
+}
+h4, .h4 {
+	font-size: 18px;
+	color: #406E0C;
+}
+
+a:focus {
+	outline: thin dotted #CADFAA;
+	outline-offset: -2px;
+}
+a:hover, a:focus {
+	color: #197E0E;
+	text-decoration: underline;
+}
+a {
+	color: #279824;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial;
+	transition: none 0.3s ease 0s;
+}
+.features h4 i {
+	font-size: 32px;
+	color: #CAE393;
+	display: block;
+	margin-right: 15px;
+	float: left;
+	margin-top: -10px;
+	font-weight: normal;
+}
+.text_in_search {
+	font-size: 20px;
+	font-weight: 300;
+	color: #FFF;
+	display: block;
+	margin-bottom: 10px;
+}
+.jumbotron {
+	padding: 20px;
+	font-weight: 200;
+	margin: 35px -15px;
+	line-height: 2.14286;
+	color: #68AADD;
+	box-shadow: 0px 0px 10px #ABC837 inset;
+	background-color: #FFF;
+}
+.inner .active, .inner .active:hover {
+	background: transparent linear-gradient(to right, #F2F6B5 0%, #F0FBFF 36%, #FFF 100%) repeat scroll 0% 0%;
+	margin-left: 4px;
+	margin-right: -1px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.inner .active i {
+	color: #ABC837;
+}
+h5.cat {
+	color: #406E0C;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 3px;
+	text-align: center;
+}
+.catalog li a {
+	color: #406E0C;
+	padding: 8px 10px;
+	border-bottom: 1px solid #E7E7E7;
+	font-weight: normal;
+	display: block;
+	float: left;
+	width: 100%;
+	font-weight: 600;
+}
+.catalog .activepoint, .catalog .activepoint:hover {
+	background: transparent linear-gradient(to right, #ABC837 -127%, #537E14 66%, #ABC837 100%) repeat scroll 0% 0%;
+	color: #FFF;
+	font-weight: 300;
+	margin-top: -1px;
+	margin-bottom: -1px;
+	z-index: 1;
+}
+.catalog .activepoint span {
+	background: #FFF none repeat scroll 0% 0%;
+	padding: 3px;
+	font-size: 9px;
+	border-radius: 3px;
+	box-shadow: 0px 1px 0px #CC553C inset, 0px 1px 0px #FC8E76;
+	color: #406E0C;
+	font-weight: 700;
+}
+.btn-warning {
+	color: #FEFEFE;
+	font-weight: 500;
+	text-shadow: 0px 1px 0px #406E0C;
+	background: #6A911D none repeat scroll 0% 0%;
+	box-shadow: 0px 2px 4px #ABC837 inset;
+	border-color: #406E0C;
+	transition: all 0.3s ease 0s;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+	color: #406E0C;
+	font-weight: 700;
+	text-shadow: 0px 1px 0px #FFF;
+	background: #C4D581 none repeat scroll 0% 0%;
+	box-shadow: 0px 0px 32px #FFF inset;
+	border-color: rgba(213, 133, 18, 0);
+}
+.header {
+	height: 85px;
+	/* background: transparent url("../img/headerbg.png") repeat-x scroll 0% 0% / 100% auto; */
+	padding-top: 25px;
+}
+.index_content {
+	background: #FFF url(../img/clouds.jpg) no-repeat scroll 0% 0%;
+	background-size: 100%;
+}
+.search_tittle {
+	font-size: 24px;
+	font-weight: 100;
+	color: #6ABAB1;
+	/* background: #F7F7F7 none repeat scroll 0% 0%; */
+	margin: -43px -15px 0px;
+	padding: 12px 15px 14px;
+	border-bottom: 1px solid #E9E9E9;
+	border-top: 1px solid #E9E9E9;
+}

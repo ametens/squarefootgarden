@@ -1,0 +1,13 @@
+
+{{brand}} - {{titre}}
+<app-demo1></app-demo1>
+<div style="flex: 100rem;">
+        <div style="flex:30%">
+            <a *ngFor="let item of aromatics" (click)="displayItem(item)">
+                {{ item.nom }}
+            </a>
+        </div>
+    <div style="flex: 65%">
+        <app-trigger-sort></app-trigger-sort>
+    </div>
+</div>
